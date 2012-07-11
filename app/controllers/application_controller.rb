@@ -1,7 +1,3 @@
-  
-# MakeAnyWishes
-# App ID: 313753795376894
-# App Secret: 2279bc791147477e77d887ef481be128
 
 
 class ApplicationController < ActionController::Base
