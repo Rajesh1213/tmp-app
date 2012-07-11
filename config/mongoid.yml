@@ -1,0 +1,22 @@
+development:
+  host: localhost
+  database: twiteme_development
+
+test:
+  host: localhost
+  database: twiteme_test
+
+# set these environment variables on your prod server
+production:
+  uri: mongodb://heroku:4c8479cd7c9a2576c4dc7e441990c131@staff.mongohq.com:10086/app4800396
+  # host: <%= ENV['MONGOID_HOST'] %>
+  # port: <%= ENV['MONGOID_PORT'] %>
+  # username: <%= ENV['MONGOID_USERNAME'] %>
+  # password: <%= ENV['MONGOID_PASSWORD'] %>
+  # database: <%= ENV['MONGOID_DATABASE'] %>
+  # database: twiteme_production
+  # slaves:
+  #   - host: slave1.local
+  #     port: 27018
+  #   - host: slave2.local
+  #     port: 27019
